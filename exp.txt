@@ -1,0 +1,4 @@
+django_practice > git folder
+practice1 > django project
+practice1.practice1 > entire? parent?
+hello > django app
