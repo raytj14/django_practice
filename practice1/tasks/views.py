@@ -14,7 +14,7 @@ def index(request):
     if "tasks" not in request.session:
         request.session["tasks"] = []
     return render(request, "tasks/index.html", {
-        "tasks": request.sesion["tasks"]
+        "tasks": request.session["tasks"]
     })
 
 def add(request):
